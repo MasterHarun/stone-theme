@@ -1,0 +1,21 @@
+{
+  "name": "stone-theme",
+  "displayName": "stone-theme",
+  "description": "An inspiration from the 'typewriter' theme for obsidian.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "stone",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stone-color-theme.json"
+      }
+    ]
+  }
+}
